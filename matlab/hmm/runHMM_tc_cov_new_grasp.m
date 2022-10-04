@@ -15,21 +15,12 @@ if strcmp(subject,'betta')
        '05.03.19','07.03.19','08.03.19','11.03.19','12.03.19'};
    
     %good channels sample
-    % for F1
-    if strcmp(array, 'F1')
-        electrodes=[1 2 3 5 6 7 9 10 13 14 17 18 21 25 26 27 28 29 30 31 32];
-    % For F5hand
-    elseif strcmp(array,'F5hand')
-        electrodes=[1 3 4 6 11 12 19 21 22 23 27 28 29 30 31 32];
-    end
+    electrodes=[1 2 3 5 6 7 9 10 13 14 17 18 21 25 26 27 28 29 30 31 32];    
 elseif strcmp(subject,'samovar')
     dates={'21.04.21', '22.04.21', '28.04.21', '29.04.21', '30.04.21',...
         '04.05.21', '06.05.21', '07.05.21', '11.05.21', '14.05.21'};
     %good channels sample
-    % for F1
-    if strcmp(array, 'F1')
-        electrodes=[4 5 6 7 9 10 11 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31];
-    end
+    electrodes=[4 5 6 7 9 10 11 13 14 15 16 17 18 19 20 21 22 23 25 26 27 28 29 30 31];
 end
 
 % Create output path if it doesnt exist
